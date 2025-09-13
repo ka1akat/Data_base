@@ -1,0 +1,36 @@
+1.1
+Relation 1
+1.
+SK1=(EmpID) → unique because each employee has their own ID.
+SK2=(SSN) → unique since every person has a distinct SSN.
+SK3=(Email) → work emails are unique identifiers.
+SK4=(Phone) → in the sample data it is unique.
+SK5=(EmpID, Name) → this combination guarantees uniqueness.
+SK6=(SSN, Email) → this combination also provides uniqueness.
+2.
+CK1=(EmpID)
+CK2=(SSN)
+CK3=(Email)
+These are minimal superkeys, because if you remove any attribute, the key would no longer uniquely identify a record.
+3.
+EmpID as the primary key because it is numeric and short, it does not change over time,
+it is safer and more practical than using SSN or Email.
+4.
+Phone Numbers in the sample data, all phone numbers are unique.However, in real-world situations, two employees might share the same work phone (for example, in one department).
+
+Relation 2
+1.
+Minimum attributes needed for primary key are: StudentID + CourseCode + Section + Semester + Year
+2.
+StudentID: identifies which student is registering. Without it, we could not distinguish registrations of different students for the same course.
+CourseCode: identifies which course is being taken. Without it, we could not tell which course the student is registering for.
+Section: a course can have multiple sections in the same semester. Without Section, two students in different sections of the same course would appear identical.
+Semester: a student can take the same course in different semesters. Without Semester, repeated registrations across semesters would be treated as duplicates.
+Year: he same semester repeats every year. Without Year, registrations in different academic years could not be distinguished.
+3.
+The only candidate key for the Registration relation is the combination:
+(StudentID, CourseCode, Section, Semester, Year).
+StudentID alone is not unique, since one student can register for multiple courses.
+CourseCode alone is not unique, since many students can register for the same course.
+Therefore, no single attribute is sufficient.
+The minimal unique combination is (StudentID, CourseCode, Section, Semester, Year), which serves as both the candidate key and the primary key.
