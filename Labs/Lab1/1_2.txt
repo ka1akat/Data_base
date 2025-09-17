@@ -1,0 +1,21 @@
+1.2 task
+
+Student - Professor
+AdvisorID in Student references ProfID in Professor.
+Each student has an academic advisor who is a professor.
+Professor - Department
+Department in Professor references DeptCode in Department.
+Each professor belongs to a department.
+Course - Department
+DepartmentCode in Course references DeptCode in Department.
+Each course is offered by a department.
+Department - Professor
+ChairID in Department references ProfID in Professor.
+Each department has a chair who is a professor.
+Enrollment - Student
+StudentID in Enrollment references StudentID in Student.
+Each enrollment record specifies which student is registered.
+Enrollment - Course
+CourseID in Enrollment references CourseID in Course.
+Each enrollment record specifies which course the student is registered for.
+
