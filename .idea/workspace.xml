@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Added Lab1 Task 1.1 solutions">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1/1_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Data base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/1_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/1_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/2_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/2_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/3_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/4_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/5_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/lab.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data base.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="32f4HQke9wA9CAku2LEUvaad3sP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +54,12 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/karakatzaslan",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "database.query.execution"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="TaskManager">
