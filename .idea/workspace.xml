@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Added Lab1 Task 1.1 solutions">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/1_1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/1_2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/2_1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/2_2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/3_1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/4_2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/5_2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab3/lab.sql" afterDir="false" />
+    <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Added Lab2 solutions">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/task.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/2.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data base.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/karakatzaslan",
-    "settings.editor.selected.configurable": "database.query.execution"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/karakatzaslan&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="" />
@@ -74,7 +67,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Lab1 Task 1.1 solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lab1 Task 1.1 solutions" />
+    <MESSAGE value="Added Lab2  solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lab2  solutions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
