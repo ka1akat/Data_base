@@ -1,25 +1,10 @@
-INNER JOIN vs LEFT JOIN
-INNER JOIN — возвращает только строки, где есть совпадение по условию соединения в обеих таблицах.
-LEFT JOIN — возвращает все строки из левой таблицы + совпавшие из правой; где совпадения нет — в колонках правой таблицы будут NULL.
-Когда использовать CROSS JOIN
-Когда нужно декартово произведение: каждая строка первой таблицы сочетается с каждой строкой второй. Практично для генерации комбинаций (например, все пары «размер × цвет» каталога) или для умножения на «календарь/таблицу дат» при создании всех возможных слотов.
-Почему место фильтра (ON vs WHERE) важно для outer-join, но не для inner-join
-В INNER JOIN фильтр в ON и тот же фильтр в WHERE эквивалентны: строки без совпадений всё равно отбрасываются.
-В LEFT/RIGHT/FULL OUTER JOIN фильтр в WHERE может удалить строки левой/правой «сохраняемой» таблицы, потому что он применяется уже после соединения и может откинуть строки с NULL. Фильтр в ON управляет именно тем, какие строки сочтутся совпавшими, не удаляя несопавшие строки «сохраняемой» стороны.
-Результат SELECT COUNT(*) FROM table1 CROSS JOIN table2 при 5 и 10 строках
-5 × 10 = 50.
-Как NATURAL JOIN выбирает колонки для соединения
-Он автоматически соединяет по всем столбцам с одинаковыми именами в обеих таблицах (эквисоединение по равенству) и выводит каждый такой столбец один раз.
-Риски NATURAL JOIN
-Неявность: трудно увидеть, по каким полям идёт соединение.
-Ломкость при изменении схемы: добавили одинаково названный столбец — логика незаметно поменялась.
-Случайные совпадения по «одноимённым, но не связанным» полям.
-Потенциально хуже читаемость/поддерживаемость.
-→ Чаще лучше явно указывать JOIN ... ON ....
-Преобразовать SELECT * FROM A LEFT JOIN B ON A.id = B.id в RIGHT JOIN
-Нужно, чтобы сохранялись все строки A. Значит A — правая таблица для RIGHT JOIN:
-SELECT *
+1.INNER JOIN returns only matching rows from both tables; LEFT JOIN returns all rows from the left table and matching ones from the right table (others become NULL).
+2.CROSS JOIN is used when we need all possible combinations of rows from two tables.
+3.In OUTER JOIN, a filter in WHERE may remove unmatched rows, while ON keeps them. For INNER JOIN, it makes no difference.
+4.The result is 50 because 5 × 10 = 50.
+5.NATURAL JOIN joins tables using all columns that have the same names in both tables.
+6.Risks: unclear join conditions, unexpected joins when schema changes, and lower readability.
+7.SELECT *
 FROM B
-RIGHT JOIN A ON A.id = B.id;-- эквивалентно исходному LEFT JOIN
-Когда использовать FULL OUTER JOIN
-Когда нужны все строки из обеих таблиц: и совпавшие, и не совпавшие с любой стороны (для несопавших — NULL с противоположной стороны). Полезно для сверок/объединений данных из двух источников, чтобы увидеть и «только в A», и «только в B», и «в обоих».
+RIGHT JOIN A ON A.id = B.id;
+8.FULL OUTER JOIN is used when we need all rows from both tables, including unmatched rows on both sides.
