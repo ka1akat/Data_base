@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Add Lab4 SQL scripts">
-      <change afterPath="$PROJECT_DIR$/Labs/class/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/class/2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab5/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab5/2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab5/3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab5/4.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab5/5.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab5/6.sql" afterDir="false" />
+    <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Add Lab5 SQL scripts">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab6/1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab6/2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab6/3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab6/4.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab6/5.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab6/6.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab6/7.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab6/8.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/class/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/class/1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab5/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab5/1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +48,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/karakatzaslan&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.1.sql.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/karakatzaslan",
+    "settings.editor.selected.configurable": "database.query.execution"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "0e42db46-d8bf-4972-b3c6-eef207aa7599"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Labs/Lab6/1.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="0e42db46-d8bf-4972-b3c6-eef207aa7599" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.1.sql" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="" />
@@ -76,7 +98,8 @@
     <MESSAGE value="Added Lab2  solutions" />
     <MESSAGE value="Add Lab3 SQL scripts" />
     <MESSAGE value="Add Lab4 SQL scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lab4 SQL scripts" />
+    <MESSAGE value="Add Lab5 SQL scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lab5 SQL scripts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,5 +1,3 @@
--- Task 1.1: Basic CHECK Constraint
-
 DROP TABLE IF EXISTS employees CASCADE;
 
 CREATE TABLE employees (
