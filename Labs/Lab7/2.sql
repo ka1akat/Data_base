@@ -42,20 +42,42 @@ VALUES
     (3, 'Budget Analysis', 103, 75000),
     (4, 'Cloud Migration', 101, 150000),
     (5, 'AI Research', NULL, 200000);
-SELECT e.emp_name, d.dept_name
-FROM employees e
-    CROSS JOIN departments d;
 
-SELECT e.emp_name, d.dept_name
-FROM employees e, departments d;
-SELECT e.emp_name, d.dept_name
+CREATE VIEW employee_details AS
+SELECT
+    e.emp_name,
+    e.salary,
+    d.dept_name,
+    d.location
 FROM employees e
-         INNER JOIN departments d ON TRUE;
+         JOIN departments d
+              ON e.dept_id = d.dept_id;
 
-SELECT e.emp_name, p.project_name
+SELECT * FROM employee_details;
+
+CREATE VIEW dept_statistics AS
+SELECT
+    d.dept_name,
+    COUNT(e.emp_id) AS employee_count,
+    AVG(e.salary) AS avg_salary,
+    MAX(e.salary) AS max_salary,
+    MIN(e.salary) AS min_salary
+FROM departments d
+         LEFT JOIN employees e
+                   ON d.dept_id = e.dept_id
+GROUP BY d.dept_name;
+SELECT * FROM dept_statistics
+ORDER BY employee_count DESC;
+
+--Task 2.4
+CREATE VIEW high_earners AS
+SELECT
+    e.emp_name,
+    e.salary,
+    d.dept_name
 FROM employees e
-         CROSS JOIN projects p;
+         JOIN departments d
+              ON e.dept_id = d.dept_id
+WHERE e.salary > 55000;
 
-SELECT * FROM departments;
-SELECT * FROM employees;
-SELECT * FROM projects;
+

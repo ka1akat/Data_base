@@ -42,20 +42,3 @@ VALUES
     (3, 'Budget Analysis', 103, 75000),
     (4, 'Cloud Migration', 101, 150000),
     (5, 'AI Research', NULL, 200000);
-SELECT e.emp_name, d.dept_name
-FROM employees e
-    CROSS JOIN departments d;
-
-SELECT e.emp_name, d.dept_name
-FROM employees e, departments d;
-SELECT e.emp_name, d.dept_name
-FROM employees e
-         INNER JOIN departments d ON TRUE;
-
-SELECT e.emp_name, p.project_name
-FROM employees e
-         CROSS JOIN projects p;
-
-SELECT * FROM departments;
-SELECT * FROM employees;
-SELECT * FROM projects;
