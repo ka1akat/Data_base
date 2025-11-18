@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Add Lab6 SQL scripts">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab7/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab7/2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab7/3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab7/4.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab7/5.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab7/6.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab7/7.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab7/8.sql" afterDir="false" />
+    <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Add Lab7 SQL scripts">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab7/class.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/4.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/5.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/6.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/7.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/8.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab8/9.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab6/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab6/1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/class/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/class/1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,8 @@
     <MESSAGE value="Add Lab4 SQL scripts" />
     <MESSAGE value="Add Lab5 SQL scripts" />
     <MESSAGE value="Add Lab6 SQL scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lab6 SQL scripts" />
+    <MESSAGE value="Add Lab7 SQL scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lab7 SQL scripts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
