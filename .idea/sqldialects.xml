@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Labs/Lab2/1_1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab2/1_2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab2/2_1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab2/2_2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab2/3_1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab2/4_2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab2/5_2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab2/task.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab3/2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab3/3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab3/4.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab3/lab.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab6/1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab6/2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab6/3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab6/4.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab6/5.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab6/6.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab6/7.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab6/8.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/1.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/4.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/5.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/6.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/7.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/8.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab7/class.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/4.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/5.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/6.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/7.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/8.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab8/9.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/class/1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/class/2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab4/1_1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab4/1_2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab4/1_3.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab4/1_4.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab4/1_5.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab4/1_6.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab4/1_7.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab5/1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab5/2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab5/3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab5/4.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab5/5.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/lab5/6.sql" dialect="GenericSQL" />
+  </component>
+</project>
