@@ -12,7 +12,7 @@
 14117||10|C|G
 14117||10|T|G</Grants>
       <ServerVersion>14.17</ServerVersion>
-      <StartupTime>1762293621</StartupTime>
+      <StartupTime>1764658507</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -812,16 +812,16 @@ false Zulu
       <ObjectId>14118</ObjectId>
       <OwnerName>karakatzaslan</OwnerName>
     </database>
-    <database id="3" parent="1" name="university_distributed">
+    <database id="3" parent="1" name="university_archive">
+      <ObjectId>16484</ObjectId>
+      <OwnerName>karakatzaslan</OwnerName>
+    </database>
+    <database id="4" parent="1" name="university_distributed">
       <ObjectId>16414</ObjectId>
       <OwnerName>karakatzaslan</OwnerName>
     </database>
-    <database id="4" parent="1" name="university_main">
+    <database id="5" parent="1" name="university_main">
       <ObjectId>16483</ObjectId>
-      <OwnerName>karakatzaslan</OwnerName>
-    </database>
-    <database id="5" parent="1" name="university_archive">
-      <ObjectId>16484</ObjectId>
       <OwnerName>karakatzaslan</OwnerName>
     </database>
     <role id="6" parent="1" name="karakatzaslan">
@@ -4264,7 +4264,25 @@ false Zulu
       <StateNumber>526</StateNumber>
       <OwnerName>karakatzaslan</OwnerName>
     </schema>
-    <sequence id="267" parent="266" name="accounts_account_id_seq">
+    <schema id="267" parent="5" name="information_schema">
+      <ObjectId>13752</ObjectId>
+      <StateNumber>532</StateNumber>
+      <OwnerName>karakatzaslan</OwnerName>
+    </schema>
+    <schema id="268" parent="5" name="pg_catalog">
+      <Comment>system catalog schema</Comment>
+      <ObjectId>11</ObjectId>
+      <StateNumber>525</StateNumber>
+      <OwnerName>karakatzaslan</OwnerName>
+    </schema>
+    <schema id="269" parent="5" name="public">
+      <Comment>standard public schema</Comment>
+      <Current>1</Current>
+      <ObjectId>2200</ObjectId>
+      <StateNumber>526</StateNumber>
+      <OwnerName>karakatzaslan</OwnerName>
+    </schema>
+    <sequence id="270" parent="266" name="accounts_account_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16574</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4273,7 +4291,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="268" parent="266" name="assignments_assignment_id_seq">
+    <sequence id="271" parent="266" name="assignments_assignment_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16531</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4282,7 +4300,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="269" parent="266" name="class_schedule_schedule_id_seq">
+    <sequence id="272" parent="266" name="class_schedule_schedule_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16450</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4291,7 +4309,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="270" parent="266" name="courses_course_id_seq">
+    <sequence id="273" parent="266" name="courses_course_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16441</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4300,7 +4318,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="271" parent="266" name="grade_scale_grade_id_seq">
+    <sequence id="274" parent="266" name="grade_scale_grade_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16464</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4309,7 +4327,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="272" parent="266" name="professors_professor_id_seq">
+    <sequence id="275" parent="266" name="professors_professor_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16434</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4318,7 +4336,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="273" parent="266" name="projects_project_id_seq">
+    <sequence id="276" parent="266" name="projects_project_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16524</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4327,7 +4345,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="274" parent="266" name="semester_calendar_semester_id_seq">
+    <sequence id="277" parent="266" name="semester_calendar_semester_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16471</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4336,7 +4354,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="275" parent="266" name="student_id_seq">
+    <sequence id="278" parent="266" name="student_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16402</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4345,7 +4363,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="276" parent="266" name="student_records_record_id_seq">
+    <sequence id="279" parent="266" name="student_records_record_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16457</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4354,7 +4372,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="277" parent="266" name="students_student_id_seq">
+    <sequence id="280" parent="266" name="students_student_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16427</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4363,7 +4381,7 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <sequence id="278" parent="266" name="transactions_transaction_id_seq">
+    <sequence id="281" parent="266" name="transactions_transaction_id_seq">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16584</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
@@ -4372,152 +4390,152 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>karakatzaslan</OwnerName>
     </sequence>
-    <table id="279" parent="266" name="accounts">
+    <table id="282" parent="266" name="accounts">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16575</ObjectId>
       <StateNumber>885</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="280" parent="266" name="assignments">
+    <table id="283" parent="266" name="assignments">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16532</ObjectId>
       <StateNumber>872</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="281" parent="266" name="bookings">
+    <table id="284" parent="266" name="bookings">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16638</ObjectId>
       <StateNumber>920</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="282" parent="266" name="branches">
+    <table id="285" parent="266" name="branches">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16593</ObjectId>
       <StateNumber>887</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="283" parent="266" name="class_schedule">
+    <table id="286" parent="266" name="class_schedule">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16451</ObjectId>
       <StateNumber>801</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="284" parent="266" name="courses">
+    <table id="287" parent="266" name="courses">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16442</ObjectId>
       <StateNumber>799</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="285" parent="266" name="customers">
+    <table id="288" parent="266" name="customers">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16643</ObjectId>
       <StateNumber>924</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="286" parent="266" name="departments">
+    <table id="289" parent="266" name="departments">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16803</ObjectId>
       <StateNumber>1003</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="287" parent="266" name="employees">
+    <table id="290" parent="266" name="employees">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16808</ObjectId>
       <StateNumber>1031</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="288" parent="266" name="grade_scale">
+    <table id="291" parent="266" name="grade_scale">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16465</ObjectId>
       <StateNumber>812</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="289" parent="266" name="inventory">
+    <table id="292" parent="266" name="inventory">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16648</ObjectId>
       <StateNumber>926</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="290" parent="266" name="products_catalog">
+    <table id="293" parent="266" name="products_catalog">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16632</ObjectId>
       <StateNumber>916</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="291" parent="266" name="professors">
+    <table id="294" parent="266" name="professors">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16435</ObjectId>
       <StateNumber>798</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="292" parent="266" name="projects">
+    <table id="295" parent="266" name="projects">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16818</ObjectId>
       <StateNumber>1004</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="293" parent="266" name="semester_calendar">
+    <table id="296" parent="266" name="semester_calendar">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16472</ObjectId>
       <StateNumber>813</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="294" parent="266" name="student">
+    <table id="297" parent="266" name="student">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16403</ObjectId>
       <StateNumber>749</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="295" parent="266" name="student_records">
+    <table id="298" parent="266" name="student_records">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16458</ObjectId>
       <StateNumber>802</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="296" parent="266" name="students">
+    <table id="299" parent="266" name="students">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16428</ObjectId>
       <StateNumber>797</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <table id="297" parent="266" name="transactions">
+    <table id="300" parent="266" name="transactions">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16585</ObjectId>
       <StateNumber>886</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>karakatzaslan</OwnerName>
     </table>
-    <check id="298" parent="279" name="accounts_status_check">
+    <check id="301" parent="282" name="accounts_status_check">
       <ColNames>status</ColNames>
       <ObjectId>16581</ObjectId>
       <Predicate>(status)::text = ANY ((ARRAY[&apos;Active&apos;::character varying, &apos;Closed&apos;::character varying, &apos;Frozen&apos;::character varying])::text[])</Predicate>
       <StateNumber>885</StateNumber>
     </check>
-    <check id="299" parent="279" name="accounts_balance_check">
+    <check id="302" parent="282" name="accounts_balance_check">
       <ColNames>balance</ColNames>
       <ObjectId>16580</ObjectId>
       <Predicate>balance &gt;= (0)::numeric</Predicate>
       <StateNumber>885</StateNumber>
     </check>
-    <column id="300" parent="279" name="account_id">
+    <column id="303" parent="282" name="account_id">
       <DefaultExpression>nextval(&apos;accounts_account_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -4526,21 +4544,21 @@ false Zulu
       <SequenceId>16574</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="301" parent="279" name="account_holder">
+    <column id="304" parent="282" name="account_holder">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>885</StateNumber>
       <StoredType>varchar(120)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="302" parent="279" name="account_type">
+    <column id="305" parent="282" name="account_type">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>885</StateNumber>
       <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="303" parent="279" name="balance">
+    <column id="306" parent="282" name="balance">
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
@@ -4548,28 +4566,28 @@ false Zulu
       <StoredType>numeric(14,2 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="304" parent="279" name="opening_date">
+    <column id="307" parent="282" name="opening_date">
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StateNumber>885</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="305" parent="279" name="branch_code">
+    <column id="308" parent="282" name="branch_code">
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StateNumber>885</StateNumber>
       <StoredType>varchar(10)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="306" parent="279" name="status">
+    <column id="309" parent="282" name="status">
       <NotNull>1</NotNull>
       <Position>7</Position>
       <StateNumber>885</StateNumber>
       <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <index id="307" parent="279" name="accounts_pkey">
+    <index id="310" parent="282" name="accounts_pkey">
       <ColNames>account_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16582</ObjectId>
@@ -4578,14 +4596,14 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="308" parent="279" name="accounts_pkey">
+    <key id="311" parent="282" name="accounts_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16583</ObjectId>
       <Primary>1</Primary>
       <StateNumber>885</StateNumber>
       <UnderlyingIndexId>16582</UnderlyingIndexId>
     </key>
-    <column id="309" parent="280" name="assignment_id">
+    <column id="312" parent="283" name="assignment_id">
       <DefaultExpression>nextval(&apos;assignments_assignment_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -4594,31 +4612,31 @@ false Zulu
       <SequenceId>16531</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="310" parent="280" name="employee_id">
+    <column id="313" parent="283" name="employee_id">
       <Position>2</Position>
       <StateNumber>872</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="311" parent="280" name="project_id">
+    <column id="314" parent="283" name="project_id">
       <Position>3</Position>
       <StateNumber>872</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="312" parent="280" name="hours_worked">
+    <column id="315" parent="283" name="hours_worked">
       <Position>4</Position>
       <StateNumber>872</StateNumber>
       <StoredType>numeric(5,1 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="313" parent="280" name="assignment_date">
+    <column id="316" parent="283" name="assignment_date">
       <Position>5</Position>
       <StateNumber>872</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <foreign-key id="314" parent="280" name="assignments_project_id_fkey">
+    <foreign-key id="317" parent="283" name="assignments_project_id_fkey">
       <ColNames>project_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16543</ObjectId>
@@ -4626,7 +4644,7 @@ false Zulu
       <RefKeyColPositions>1</RefKeyColPositions>
       <RefTableId>16525</RefTableId>
     </foreign-key>
-    <index id="315" parent="280" name="assignments_pkey">
+    <index id="318" parent="283" name="assignments_pkey">
       <ColNames>assignment_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16536</ObjectId>
@@ -4635,84 +4653,84 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="316" parent="280" name="assignments_pkey">
+    <key id="319" parent="283" name="assignments_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16537</ObjectId>
       <Primary>1</Primary>
       <StateNumber>872</StateNumber>
       <UnderlyingIndexId>16536</UnderlyingIndexId>
     </key>
-    <check id="317" parent="281" name="bookings_num_guests_check">
+    <check id="320" parent="284" name="bookings_num_guests_check">
       <ColNames>num_guests</ColNames>
       <ObjectId>16641</ObjectId>
       <Predicate>(num_guests &gt;= 1) AND (num_guests &lt;= 10)</Predicate>
       <StateNumber>920</StateNumber>
     </check>
-    <check id="318" parent="281" name="bookings_check">
+    <check id="321" parent="284" name="bookings_check">
       <ColNames>check_out_date
 check_in_date</ColNames>
       <ObjectId>16642</ObjectId>
       <Predicate>check_out_date &gt; check_in_date</Predicate>
       <StateNumber>920</StateNumber>
     </check>
-    <column id="319" parent="281" name="booking_id">
+    <column id="322" parent="284" name="booking_id">
       <Position>1</Position>
       <StateNumber>920</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="320" parent="281" name="check_in_date">
+    <column id="323" parent="284" name="check_in_date">
       <Position>2</Position>
       <StateNumber>920</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="321" parent="281" name="check_out_date">
+    <column id="324" parent="284" name="check_out_date">
       <Position>3</Position>
       <StateNumber>920</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="322" parent="281" name="num_guests">
+    <column id="325" parent="284" name="num_guests">
       <Position>4</Position>
       <StateNumber>920</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <check id="323" parent="282" name="branches_employee_count_check">
+    <check id="326" parent="285" name="branches_employee_count_check">
       <ColNames>employee_count</ColNames>
       <ObjectId>16597</ObjectId>
       <Predicate>employee_count &gt;= 0</Predicate>
       <StateNumber>887</StateNumber>
     </check>
-    <column id="324" parent="282" name="branch_code">
+    <column id="327" parent="285" name="branch_code">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>887</StateNumber>
       <StoredType>varchar(10)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="325" parent="282" name="branch_name">
+    <column id="328" parent="285" name="branch_name">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>887</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="326" parent="282" name="city">
+    <column id="329" parent="285" name="city">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>887</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="327" parent="282" name="manager_name">
+    <column id="330" parent="285" name="manager_name">
       <Position>4</Position>
       <StateNumber>887</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="328" parent="282" name="employee_count">
+    <column id="331" parent="285" name="employee_count">
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>5</Position>
@@ -4720,7 +4738,7 @@ check_in_date</ColNames>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <index id="329" parent="282" name="branches_pkey">
+    <index id="332" parent="285" name="branches_pkey">
       <ColNames>branch_code</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16598</ObjectId>
@@ -4732,14 +4750,14 @@ check_in_date</ColNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="330" parent="282" name="branches_pkey">
+    <key id="333" parent="285" name="branches_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16599</ObjectId>
       <Primary>1</Primary>
       <StateNumber>887</StateNumber>
       <UnderlyingIndexId>16598</UnderlyingIndexId>
     </key>
-    <column id="331" parent="283" name="schedule_id">
+    <column id="334" parent="286" name="schedule_id">
       <DefaultExpression>nextval(&apos;class_schedule_schedule_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -4748,49 +4766,49 @@ check_in_date</ColNames>
       <SequenceId>16450</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="332" parent="283" name="course_id">
+    <column id="335" parent="286" name="course_id">
       <Position>2</Position>
       <StateNumber>801</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="333" parent="283" name="professor_id">
+    <column id="336" parent="286" name="professor_id">
       <Position>3</Position>
       <StateNumber>801</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="334" parent="283" name="classroom">
+    <column id="337" parent="286" name="classroom">
       <Position>4</Position>
       <StateNumber>801</StateNumber>
       <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="335" parent="283" name="class_date">
+    <column id="338" parent="286" name="class_date">
       <Position>5</Position>
       <StateNumber>801</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="336" parent="283" name="start_time">
+    <column id="339" parent="286" name="start_time">
       <Position>6</Position>
       <StateNumber>801</StateNumber>
       <StoredType>time|0s</StoredType>
       <TypeId>1083</TypeId>
     </column>
-    <column id="337" parent="283" name="end_time">
+    <column id="340" parent="286" name="end_time">
       <Position>7</Position>
       <StateNumber>801</StateNumber>
       <StoredType>time|0s</StoredType>
       <TypeId>1083</TypeId>
     </column>
-    <column id="338" parent="283" name="duration">
+    <column id="341" parent="286" name="duration">
       <Position>8</Position>
       <StateNumber>801</StateNumber>
       <StoredType>interval|0s</StoredType>
       <TypeId>1186</TypeId>
     </column>
-    <index id="339" parent="283" name="class_schedule_pkey">
+    <index id="342" parent="286" name="class_schedule_pkey">
       <ColNames>schedule_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16455</ObjectId>
@@ -4799,14 +4817,14 @@ check_in_date</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="340" parent="283" name="class_schedule_pkey">
+    <key id="343" parent="286" name="class_schedule_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16456</ObjectId>
       <Primary>1</Primary>
       <StateNumber>801</StateNumber>
       <UnderlyingIndexId>16455</UnderlyingIndexId>
     </key>
-    <column id="341" parent="284" name="course_id">
+    <column id="344" parent="287" name="course_id">
       <DefaultExpression>nextval(&apos;courses_course_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -4815,55 +4833,55 @@ check_in_date</ColNames>
       <SequenceId>16441</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="342" parent="284" name="course_code">
+    <column id="345" parent="287" name="course_code">
       <Position>2</Position>
       <StateNumber>799</StateNumber>
       <StoredType>char(8)|0s</StoredType>
       <TypeId>1042</TypeId>
     </column>
-    <column id="343" parent="284" name="course_title">
+    <column id="346" parent="287" name="course_title">
       <Position>3</Position>
       <StateNumber>799</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="344" parent="284" name="description">
+    <column id="347" parent="287" name="description">
       <Position>4</Position>
       <StateNumber>799</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="345" parent="284" name="credits">
+    <column id="348" parent="287" name="credits">
       <Position>5</Position>
       <StateNumber>799</StateNumber>
       <StoredType>smallint|0s</StoredType>
       <TypeId>21</TypeId>
     </column>
-    <column id="346" parent="284" name="max_enrollment">
+    <column id="349" parent="287" name="max_enrollment">
       <Position>6</Position>
       <StateNumber>799</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="347" parent="284" name="course_fee">
+    <column id="350" parent="287" name="course_fee">
       <Position>7</Position>
       <StateNumber>799</StateNumber>
       <StoredType>numeric(10,2 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="348" parent="284" name="is_online">
+    <column id="351" parent="287" name="is_online">
       <Position>8</Position>
       <StateNumber>799</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
-    <column id="349" parent="284" name="created_at">
+    <column id="352" parent="287" name="created_at">
       <Position>9</Position>
       <StateNumber>799</StateNumber>
       <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
-    <index id="350" parent="284" name="courses_pkey">
+    <index id="353" parent="287" name="courses_pkey">
       <ColNames>course_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16448</ObjectId>
@@ -4872,60 +4890,60 @@ check_in_date</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="351" parent="284" name="courses_pkey">
+    <key id="354" parent="287" name="courses_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16449</ObjectId>
       <Primary>1</Primary>
       <StateNumber>799</StateNumber>
       <UnderlyingIndexId>16448</UnderlyingIndexId>
     </key>
-    <column id="352" parent="285" name="customer_id">
+    <column id="355" parent="288" name="customer_id">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>924</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="353" parent="285" name="email">
+    <column id="356" parent="288" name="email">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>924</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="354" parent="285" name="phone">
+    <column id="357" parent="288" name="phone">
       <Position>3</Position>
       <StateNumber>924</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="355" parent="285" name="registration_date">
+    <column id="358" parent="288" name="registration_date">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>924</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="356" parent="286" name="dept_id">
+    <column id="359" parent="289" name="dept_id">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>1002</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="357" parent="286" name="dept_name">
+    <column id="360" parent="289" name="dept_name">
       <Position>2</Position>
       <StateNumber>1002</StateNumber>
       <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="358" parent="286" name="location">
+    <column id="361" parent="289" name="location">
       <Position>3</Position>
       <StateNumber>1002</StateNumber>
       <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <index id="359" parent="286" name="departments_pkey">
+    <index id="362" parent="289" name="departments_pkey">
       <ColNames>dept_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16806</ObjectId>
@@ -4934,7 +4952,7 @@ check_in_date</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="360" parent="286" name="dept_name_hash_idx">
+    <index id="363" parent="289" name="dept_name_hash_idx">
       <ColNames>dept_name</ColNames>
       <ObjectId>16838</ObjectId>
       <StateNumber>1041</StateNumber>
@@ -4943,57 +4961,57 @@ check_in_date</ColNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="361" parent="286" name="departments_pkey">
+    <key id="364" parent="289" name="departments_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16807</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1002</StateNumber>
       <UnderlyingIndexId>16806</UnderlyingIndexId>
     </key>
-    <column id="362" parent="287" name="emp_id">
+    <column id="365" parent="290" name="emp_id">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>1003</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="363" parent="287" name="emp_name">
+    <column id="366" parent="290" name="emp_name">
       <Position>2</Position>
       <StateNumber>1003</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="364" parent="287" name="dept_id">
+    <column id="367" parent="290" name="dept_id">
       <Position>3</Position>
       <StateNumber>1003</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="365" parent="287" name="salary">
+    <column id="368" parent="290" name="salary">
       <Position>4</Position>
       <StateNumber>1003</StateNumber>
       <StoredType>numeric(10,2 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="366" parent="287" name="email">
+    <column id="369" parent="290" name="email">
       <Position>5</Position>
       <StateNumber>1013</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="367" parent="287" name="phone">
+    <column id="370" parent="290" name="phone">
       <Position>6</Position>
       <StateNumber>1023</StateNumber>
       <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="368" parent="287" name="hire_date">
+    <column id="371" parent="290" name="hire_date">
       <Position>7</Position>
       <StateNumber>1031</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <foreign-key id="369" parent="287" name="employees_dept_id_fkey">
+    <foreign-key id="372" parent="290" name="employees_dept_id_fkey">
       <ColNames>dept_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16813</ObjectId>
@@ -5001,7 +5019,7 @@ check_in_date</ColNames>
       <RefKeyColPositions>1</RefKeyColPositions>
       <RefTableId>16803</RefTableId>
     </foreign-key>
-    <index id="370" parent="287" name="employees_pkey">
+    <index id="373" parent="290" name="employees_pkey">
       <ColNames>emp_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16811</ObjectId>
@@ -5010,7 +5028,7 @@ check_in_date</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="371" parent="287" name="emp_email_unique_idx">
+    <index id="374" parent="290" name="emp_email_unique_idx">
       <ColNames>email</ColNames>
       <ObjectId>16830</ObjectId>
       <StateNumber>1020</StateNumber>
@@ -5020,7 +5038,7 @@ check_in_date</ColNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <index id="372" parent="287" name="employees_phone_key">
+    <index id="375" parent="290" name="employees_phone_key">
       <ColNames>phone</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16831</ObjectId>
@@ -5031,33 +5049,33 @@ check_in_date</ColNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <index id="373" parent="287" name="emp_dept_idx">
+    <index id="376" parent="290" name="emp_dept_idx">
       <ColNames>dept_id</ColNames>
       <ObjectId>16829</ObjectId>
       <StateNumber>1011</StateNumber>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="374" parent="287" name="emp_salary_desc_idx">
+    <index id="377" parent="290" name="emp_salary_desc_idx">
       <ColNames>salary</ColNames>
       <ObjectId>16833</ObjectId>
       <ReverseColNames>salary</ReverseColNames>
       <StateNumber>1025</StateNumber>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="375" parent="287" name="emp_salary_idx">
+    <index id="378" parent="290" name="emp_salary_idx">
       <ColNames>salary</ColNames>
       <ObjectId>16828</ObjectId>
       <StateNumber>1009</StateNumber>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="376" parent="287" name="emp_hire_year_idx">
+    <index id="379" parent="290" name="emp_hire_year_idx">
       <ColNames>&#x1b;EXTRACT(year FROM hire_date)</ColNames>
       <FunctionBased>1</FunctionBased>
       <ObjectId>16836</ObjectId>
       <StateNumber>1037</StateNumber>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="377" parent="287" name="emp_name_lower_idx">
+    <index id="380" parent="290" name="emp_name_lower_idx">
       <ColNames>&#x1b;lower(emp_name::text)</ColNames>
       <FunctionBased>1</FunctionBased>
       <ObjectId>16835</ObjectId>
@@ -5067,20 +5085,20 @@ check_in_date</ColNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="378" parent="287" name="employees_pkey">
+    <key id="381" parent="290" name="employees_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16812</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1003</StateNumber>
       <UnderlyingIndexId>16811</UnderlyingIndexId>
     </key>
-    <key id="379" parent="287" name="employees_phone_key">
+    <key id="382" parent="290" name="employees_phone_key">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16832</ObjectId>
       <StateNumber>1023</StateNumber>
       <UnderlyingIndexId>16831</UnderlyingIndexId>
     </key>
-    <column id="380" parent="288" name="grade_id">
+    <column id="383" parent="291" name="grade_id">
       <DefaultExpression>nextval(&apos;grade_scale_grade_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5089,31 +5107,31 @@ check_in_date</ColNames>
       <SequenceId>16464</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="381" parent="288" name="letter_grade">
+    <column id="384" parent="291" name="letter_grade">
       <Position>2</Position>
       <StateNumber>812</StateNumber>
       <StoredType>char(2)|0s</StoredType>
       <TypeId>1042</TypeId>
     </column>
-    <column id="382" parent="288" name="min_percentage">
+    <column id="385" parent="291" name="min_percentage">
       <Position>3</Position>
       <StateNumber>812</StateNumber>
       <StoredType>numeric(4,1 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="383" parent="288" name="max_percentage">
+    <column id="386" parent="291" name="max_percentage">
       <Position>4</Position>
       <StateNumber>812</StateNumber>
       <StoredType>numeric(4,1 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="384" parent="288" name="gpa_points">
+    <column id="387" parent="291" name="gpa_points">
       <Position>5</Position>
       <StateNumber>812</StateNumber>
       <StoredType>numeric(3,2 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <index id="385" parent="288" name="grade_scale_pkey">
+    <index id="388" parent="291" name="grade_scale_pkey">
       <ColNames>grade_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16469</ObjectId>
@@ -5122,92 +5140,92 @@ check_in_date</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="386" parent="288" name="grade_scale_pkey">
+    <key id="389" parent="291" name="grade_scale_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16470</ObjectId>
       <Primary>1</Primary>
       <StateNumber>812</StateNumber>
       <UnderlyingIndexId>16469</UnderlyingIndexId>
     </key>
-    <check id="387" parent="289" name="inventory_quantity_check">
+    <check id="390" parent="292" name="inventory_quantity_check">
       <ColNames>quantity</ColNames>
       <ObjectId>16651</ObjectId>
       <Predicate>quantity &gt;= 0</Predicate>
       <StateNumber>926</StateNumber>
     </check>
-    <check id="388" parent="289" name="inventory_unit_price_check">
+    <check id="391" parent="292" name="inventory_unit_price_check">
       <ColNames>unit_price</ColNames>
       <ObjectId>16652</ObjectId>
       <Predicate>unit_price &gt; (0)::numeric</Predicate>
       <StateNumber>926</StateNumber>
     </check>
-    <column id="389" parent="289" name="item_id">
+    <column id="392" parent="292" name="item_id">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>926</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="390" parent="289" name="item_name">
+    <column id="393" parent="292" name="item_name">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>926</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="391" parent="289" name="quantity">
+    <column id="394" parent="292" name="quantity">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>926</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="392" parent="289" name="unit_price">
+    <column id="395" parent="292" name="unit_price">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>926</StateNumber>
       <StoredType>numeric|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="393" parent="289" name="last_updated">
+    <column id="396" parent="292" name="last_updated">
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StateNumber>926</StateNumber>
       <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
-    <check id="394" parent="290" name="valid_discount">
+    <check id="397" parent="293" name="valid_discount">
       <ColNames>regular_price
 discount_price</ColNames>
       <ObjectId>16635</ObjectId>
       <Predicate>(regular_price &gt; (0)::numeric) AND (discount_price &gt; (0)::numeric) AND (discount_price &lt; regular_price)</Predicate>
       <StateNumber>916</StateNumber>
     </check>
-    <column id="395" parent="290" name="product_id">
+    <column id="398" parent="293" name="product_id">
       <Position>1</Position>
       <StateNumber>916</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="396" parent="290" name="product_name">
+    <column id="399" parent="293" name="product_name">
       <Position>2</Position>
       <StateNumber>916</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
-    <column id="397" parent="290" name="regular_price">
+    <column id="400" parent="293" name="regular_price">
       <Position>3</Position>
       <StateNumber>916</StateNumber>
       <StoredType>numeric|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="398" parent="290" name="discount_price">
+    <column id="401" parent="293" name="discount_price">
       <Position>4</Position>
       <StateNumber>916</StateNumber>
       <StoredType>numeric|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="399" parent="291" name="professor_id">
+    <column id="402" parent="294" name="professor_id">
       <DefaultExpression>nextval(&apos;professors_professor_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5216,55 +5234,55 @@ discount_price</ColNames>
       <SequenceId>16434</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="400" parent="291" name="first_name">
+    <column id="403" parent="294" name="first_name">
       <Position>2</Position>
       <StateNumber>798</StateNumber>
       <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="401" parent="291" name="last_name">
+    <column id="404" parent="294" name="last_name">
       <Position>3</Position>
       <StateNumber>798</StateNumber>
       <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="402" parent="291" name="email">
+    <column id="405" parent="294" name="email">
       <Position>4</Position>
       <StateNumber>798</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="403" parent="291" name="office_number">
+    <column id="406" parent="294" name="office_number">
       <Position>5</Position>
       <StateNumber>798</StateNumber>
       <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="404" parent="291" name="hire_date">
+    <column id="407" parent="294" name="hire_date">
       <Position>6</Position>
       <StateNumber>798</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="405" parent="291" name="salary">
+    <column id="408" parent="294" name="salary">
       <Position>7</Position>
       <StateNumber>798</StateNumber>
       <StoredType>numeric(12,2 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="406" parent="291" name="is_tenured">
+    <column id="409" parent="294" name="is_tenured">
       <Position>8</Position>
       <StateNumber>798</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
-    <column id="407" parent="291" name="years_experience">
+    <column id="410" parent="294" name="years_experience">
       <Position>9</Position>
       <StateNumber>798</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <index id="408" parent="291" name="professors_pkey">
+    <index id="411" parent="294" name="professors_pkey">
       <ColNames>professor_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16439</ObjectId>
@@ -5273,39 +5291,39 @@ discount_price</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="409" parent="291" name="professors_pkey">
+    <key id="412" parent="294" name="professors_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16440</ObjectId>
       <Primary>1</Primary>
       <StateNumber>798</StateNumber>
       <UnderlyingIndexId>16439</UnderlyingIndexId>
     </key>
-    <column id="410" parent="292" name="proj_id">
+    <column id="413" parent="295" name="proj_id">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>1004</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="411" parent="292" name="proj_name">
+    <column id="414" parent="295" name="proj_name">
       <Position>2</Position>
       <StateNumber>1004</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="412" parent="292" name="budget">
+    <column id="415" parent="295" name="budget">
       <Position>3</Position>
       <StateNumber>1004</StateNumber>
       <StoredType>numeric(12,2 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="413" parent="292" name="dept_id">
+    <column id="416" parent="295" name="dept_id">
       <Position>4</Position>
       <StateNumber>1004</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <foreign-key id="414" parent="292" name="projects_dept_id_fkey">
+    <foreign-key id="417" parent="295" name="projects_dept_id_fkey">
       <ColNames>dept_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16823</ObjectId>
@@ -5313,7 +5331,7 @@ discount_price</ColNames>
       <RefKeyColPositions>1</RefKeyColPositions>
       <RefTableId>16803</RefTableId>
     </foreign-key>
-    <index id="415" parent="292" name="projects_pkey">
+    <index id="418" parent="295" name="projects_pkey">
       <ColNames>proj_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16821</ObjectId>
@@ -5322,7 +5340,7 @@ discount_price</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="416" parent="292" name="proj_name_btree_idx">
+    <index id="419" parent="295" name="proj_name_btree_idx">
       <ColNames>proj_name</ColNames>
       <ObjectId>16839</ObjectId>
       <StateNumber>1042</StateNumber>
@@ -5331,7 +5349,7 @@ discount_price</ColNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <index id="417" parent="292" name="proj_name_hash_idx">
+    <index id="420" parent="295" name="proj_name_hash_idx">
       <ColNames>proj_name</ColNames>
       <ObjectId>16840</ObjectId>
       <StateNumber>1043</StateNumber>
@@ -5340,27 +5358,27 @@ discount_price</ColNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <index id="418" parent="292" name="proj_budget_nulls_first_idx">
+    <index id="421" parent="295" name="proj_budget_nulls_first_idx">
       <ColNames>budget</ColNames>
       <ObjectId>16834</ObjectId>
       <StateNumber>1027</StateNumber>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="419" parent="292" name="proj_high_budget_idx">
+    <index id="422" parent="295" name="proj_high_budget_idx">
       <ColNames>budget</ColNames>
       <Condition>(budget &gt; (80000)::numeric)</Condition>
       <ObjectId>16837</ObjectId>
       <StateNumber>1039</StateNumber>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="420" parent="292" name="projects_pkey">
+    <key id="423" parent="295" name="projects_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16822</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1004</StateNumber>
       <UnderlyingIndexId>16821</UnderlyingIndexId>
     </key>
-    <column id="421" parent="293" name="semester_id">
+    <column id="424" parent="296" name="semester_id">
       <DefaultExpression>nextval(&apos;semester_calendar_semester_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5369,43 +5387,43 @@ discount_price</ColNames>
       <SequenceId>16471</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="422" parent="293" name="semester_name">
+    <column id="425" parent="296" name="semester_name">
       <Position>2</Position>
       <StateNumber>813</StateNumber>
       <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="423" parent="293" name="academic_year">
+    <column id="426" parent="296" name="academic_year">
       <Position>3</Position>
       <StateNumber>813</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="424" parent="293" name="start_date">
+    <column id="427" parent="296" name="start_date">
       <Position>4</Position>
       <StateNumber>813</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="425" parent="293" name="end_date">
+    <column id="428" parent="296" name="end_date">
       <Position>5</Position>
       <StateNumber>813</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="426" parent="293" name="registration_deadline">
+    <column id="429" parent="296" name="registration_deadline">
       <Position>6</Position>
       <StateNumber>813</StateNumber>
       <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
-    <column id="427" parent="293" name="is_current">
+    <column id="430" parent="296" name="is_current">
       <Position>7</Position>
       <StateNumber>813</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
-    <index id="428" parent="293" name="semester_calendar_pkey">
+    <index id="431" parent="296" name="semester_calendar_pkey">
       <ColNames>semester_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16476</ObjectId>
@@ -5414,14 +5432,14 @@ discount_price</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="429" parent="293" name="semester_calendar_pkey">
+    <key id="432" parent="296" name="semester_calendar_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16477</ObjectId>
       <Primary>1</Primary>
       <StateNumber>813</StateNumber>
       <UnderlyingIndexId>16476</UnderlyingIndexId>
     </key>
-    <column id="430" parent="294" name="id">
+    <column id="433" parent="297" name="id">
       <DefaultExpression>nextval(&apos;student_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5430,13 +5448,13 @@ discount_price</ColNames>
       <SequenceId>16402</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="431" parent="294" name="name">
+    <column id="434" parent="297" name="name">
       <Position>2</Position>
       <StateNumber>749</StateNumber>
       <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <index id="432" parent="294" name="student_pkey">
+    <index id="435" parent="297" name="student_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16407</ObjectId>
@@ -5445,14 +5463,14 @@ discount_price</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="433" parent="294" name="student_pkey">
+    <key id="436" parent="297" name="student_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16408</ObjectId>
       <Primary>1</Primary>
       <StateNumber>749</StateNumber>
       <UnderlyingIndexId>16407</UnderlyingIndexId>
     </key>
-    <column id="434" parent="295" name="record_id">
+    <column id="437" parent="298" name="record_id">
       <DefaultExpression>nextval(&apos;student_records_record_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5461,55 +5479,55 @@ discount_price</ColNames>
       <SequenceId>16457</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="435" parent="295" name="student_id">
+    <column id="438" parent="298" name="student_id">
       <Position>2</Position>
       <StateNumber>802</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="436" parent="295" name="course_id">
+    <column id="439" parent="298" name="course_id">
       <Position>3</Position>
       <StateNumber>802</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="437" parent="295" name="semester">
+    <column id="440" parent="298" name="semester">
       <Position>4</Position>
       <StateNumber>802</StateNumber>
       <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="438" parent="295" name="year">
+    <column id="441" parent="298" name="year">
       <Position>5</Position>
       <StateNumber>802</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="439" parent="295" name="grade">
+    <column id="442" parent="298" name="grade">
       <Position>6</Position>
       <StateNumber>802</StateNumber>
       <StoredType>char(2)|0s</StoredType>
       <TypeId>1042</TypeId>
     </column>
-    <column id="440" parent="295" name="attendance_percentage">
+    <column id="443" parent="298" name="attendance_percentage">
       <Position>7</Position>
       <StateNumber>802</StateNumber>
       <StoredType>numeric(4,1 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="441" parent="295" name="submission_timestamp">
+    <column id="444" parent="298" name="submission_timestamp">
       <Position>8</Position>
       <StateNumber>802</StateNumber>
       <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
-    <column id="442" parent="295" name="last_updated">
+    <column id="445" parent="298" name="last_updated">
       <Position>9</Position>
       <StateNumber>802</StateNumber>
       <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
-    <index id="443" parent="295" name="student_records_pkey">
+    <index id="446" parent="298" name="student_records_pkey">
       <ColNames>record_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16462</ObjectId>
@@ -5518,14 +5536,14 @@ discount_price</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="444" parent="295" name="student_records_pkey">
+    <key id="447" parent="298" name="student_records_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16463</ObjectId>
       <Primary>1</Primary>
       <StateNumber>802</StateNumber>
       <UnderlyingIndexId>16462</UnderlyingIndexId>
     </key>
-    <column id="445" parent="296" name="student_id">
+    <column id="448" parent="299" name="student_id">
       <DefaultExpression>nextval(&apos;students_student_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5534,61 +5552,61 @@ discount_price</ColNames>
       <SequenceId>16427</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="446" parent="296" name="first_name">
+    <column id="449" parent="299" name="first_name">
       <Position>2</Position>
       <StateNumber>797</StateNumber>
       <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="447" parent="296" name="last_name">
+    <column id="450" parent="299" name="last_name">
       <Position>3</Position>
       <StateNumber>797</StateNumber>
       <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="448" parent="296" name="email">
+    <column id="451" parent="299" name="email">
       <Position>4</Position>
       <StateNumber>797</StateNumber>
       <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="449" parent="296" name="phone">
+    <column id="452" parent="299" name="phone">
       <Position>5</Position>
       <StateNumber>797</StateNumber>
       <StoredType>char(15)|0s</StoredType>
       <TypeId>1042</TypeId>
     </column>
-    <column id="450" parent="296" name="date_of_birth">
+    <column id="453" parent="299" name="date_of_birth">
       <Position>6</Position>
       <StateNumber>797</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="451" parent="296" name="enrollment_date">
+    <column id="454" parent="299" name="enrollment_date">
       <Position>7</Position>
       <StateNumber>797</StateNumber>
       <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
-    <column id="452" parent="296" name="gpa">
+    <column id="455" parent="299" name="gpa">
       <Position>8</Position>
       <StateNumber>797</StateNumber>
       <StoredType>numeric(3,2 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="453" parent="296" name="is_active">
+    <column id="456" parent="299" name="is_active">
       <Position>9</Position>
       <StateNumber>797</StateNumber>
       <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
-    <column id="454" parent="296" name="graduation_year">
+    <column id="457" parent="299" name="graduation_year">
       <Position>10</Position>
       <StateNumber>797</StateNumber>
       <StoredType>smallint|0s</StoredType>
       <TypeId>21</TypeId>
     </column>
-    <index id="455" parent="296" name="students_pkey">
+    <index id="458" parent="299" name="students_pkey">
       <ColNames>student_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16432</ObjectId>
@@ -5597,20 +5615,20 @@ discount_price</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="456" parent="296" name="students_pkey">
+    <key id="459" parent="299" name="students_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16433</ObjectId>
       <Primary>1</Primary>
       <StateNumber>797</StateNumber>
       <UnderlyingIndexId>16432</UnderlyingIndexId>
     </key>
-    <check id="457" parent="297" name="transactions_amount_check">
+    <check id="460" parent="300" name="transactions_amount_check">
       <ColNames>amount</ColNames>
       <ObjectId>16590</ObjectId>
       <Predicate>amount &gt; (0)::numeric</Predicate>
       <StateNumber>886</StateNumber>
     </check>
-    <column id="458" parent="297" name="transaction_id">
+    <column id="461" parent="300" name="transaction_id">
       <DefaultExpression>nextval(&apos;transactions_transaction_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -5619,14 +5637,14 @@ discount_price</ColNames>
       <SequenceId>16584</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="459" parent="297" name="account_id">
+    <column id="462" parent="300" name="account_id">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>886</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="460" parent="297" name="transaction_date">
+    <column id="463" parent="300" name="transaction_date">
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>3</Position>
@@ -5634,27 +5652,27 @@ discount_price</ColNames>
       <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
-    <column id="461" parent="297" name="amount">
+    <column id="464" parent="300" name="amount">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>886</StateNumber>
       <StoredType>numeric(14,2 digit)|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
-    <column id="462" parent="297" name="transaction_type">
+    <column id="465" parent="300" name="transaction_type">
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StateNumber>886</StateNumber>
       <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="463" parent="297" name="description">
+    <column id="466" parent="300" name="description">
       <Position>6</Position>
       <StateNumber>886</StateNumber>
       <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <index id="464" parent="297" name="transactions_pkey">
+    <index id="467" parent="300" name="transactions_pkey">
       <ColNames>transaction_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16591</ObjectId>
@@ -5663,7 +5681,7 @@ discount_price</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="465" parent="297" name="transactions_pkey">
+    <key id="468" parent="300" name="transactions_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16592</ObjectId>
       <Primary>1</Primary>

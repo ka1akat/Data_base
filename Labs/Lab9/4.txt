@@ -1,0 +1,30 @@
+Task 3.6
+a) Does Terminal 1 see the new product inserted by Terminal 2?
+No.
+Under REPEATABLE READ, Terminal 1 does not see rows inserted by another transaction after its own transaction began.
+Terminal 1 will continue to see only the original snapshot (Coke and Pepsi).
+b) What is a phantom read?
+A phantom read occurs when a transaction repeats a query and gets additional rows that were not visible during the first read because another transaction inserted them in the meantime.
+Short definition:
+The same query returns a different set of rows due to new rows appearing.
+c) Which isolation level prevents phantom reads?
+SERIALIZABLE.
+This level prevents phantom reads by making transactions behave as if they were executed one after another, not concurrently.
+
+Task 3.7
+a) Did Terminal 1 see the price of 99.99? Why is this problematic?
+Yes.
+Under READ UNCOMMITTED, Terminal 1 is allowed to see uncommitted changes made by Terminal 2.
+This is problematic because:
+Terminal 2 later performs ROLLBACK, so the change never officially existed.
+Terminal 1 saw invalid, temporary, incorrect data, which can lead to wrong calculations or incorrect decisions.
+b) What is a dirty read?
+A dirty read happens when a transaction reads data that was changed by another transaction but not yet committed.
+If the other transaction later rolls back, the data read was never real, making the first transaction’s results invalid.
+c) Why should READ UNCOMMITTED be avoided in most applications?
+Because it can produce:
+Incorrect results (reading values that never become permanent)
+Inconsistent state
+Wrong calculations
+Unpredictable behavior
+READ UNCOMMITTED allows the dirtiest, least safe kind of reading — transactions can see data that might disappear after a rollback.

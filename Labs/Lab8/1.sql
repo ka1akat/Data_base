@@ -35,4 +35,6 @@ INSERT INTO projects VALUES
                          (202, 'Database Migration', 120000, 101),
                          (203, 'HR System Upgrade', 50000, 102);
 
+DROP INDEX wh_user_idx;
+
 

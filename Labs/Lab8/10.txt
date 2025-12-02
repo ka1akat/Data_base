@@ -1,0 +1,18 @@
+--1
+B-tree index is the default index type in PostgreSQL.
+It is automatically used if no type is specified.
+--2
+A column is frequently used in WHERE conditions
+A column is used in JOIN between tables
+A column is used in ORDER BY or GROUP BY
+SELECT * FROM employees WHERE salary > 1000;
+--3
+Do not create an index when:
+The table is very small (for example, only 10–20 rows)
+The column is frequently updated — indexes will slow down INSERT, UPDATE, and DELETE
+(Extra) When a column has many duplicate values (e.g., gender, is_active)
+--4
+The index must also be updated when data changes.
+This means that too many indexes can slow down INSERT, UPDATE, and DELETE.
+If you see Index Scan → the index is used.
+If you see Seq Scan → PostgreSQL is reading the whole table (the index is not used).

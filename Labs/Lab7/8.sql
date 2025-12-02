@@ -1,4 +1,5 @@
 --8.1
+
 CREATE OR REPLACE VIEW dept_dashboard AS
 SELECT
     d.dept_name,
@@ -53,4 +54,8 @@ CREATE USER charlie WITH PASSWORD 'charlie123';
 GRANT viewer_role   TO alice;
 GRANT analyst_role  TO bob;
 GRANT manager_role  TO charlie;
-
+WHERE customer_id = p_customer_id
+          AND status = p_status;
+END IF;
+END;
+$$ LANGUAGE plpgsql;
