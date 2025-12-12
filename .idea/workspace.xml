@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Add Lab8 SQL scripts">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab8/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab8/11.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab8/12.SQL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab9/3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab9/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab9/independent.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e42db46-d8bf-4972-b3c6-eef207aa7599.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0e42db46-d8bf-4972-b3c6-eef207aa7599.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e42db46-d8bf-4972-b3c6-eef207aa7599/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0e42db46-d8bf-4972-b3c6-eef207aa7599/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/362b67cc-c0a9-4946-82c5-8bc441f16942.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/362b67cc-c0a9-4946-82c5-8bc441f16942.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d0f899f-cbe9-40e6-93c8-168df0a46665.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d0f899f-cbe9-40e6-93c8-168df0a46665.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d0f899f-cbe9-40e6-93c8-168df0a46665/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d0f899f-cbe9-40e6-93c8-168df0a46665/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+    <list default="true" id="1186a002-9553-4a10-811e-8aa677b914ea" name="Changes" comment="Add Lab9 SQL scripts">
+      <change afterPath="$PROJECT_DIR$/Labs/EXTRA POINTS/1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/EXTRA POINTS/2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/EXTRA POINTS/3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/EXTRA POINTS/4.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab7/8.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab7/8.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab7/class.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab7/class.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab8/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab8/1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +97,8 @@
     <MESSAGE value="Add Lab6 SQL scripts" />
     <MESSAGE value="Add Lab7 SQL scripts" />
     <MESSAGE value="Add Lab8 SQL scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lab8 SQL scripts" />
+    <MESSAGE value="Add Lab9 SQL scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lab9 SQL scripts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
